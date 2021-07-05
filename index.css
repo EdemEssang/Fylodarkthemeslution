@@ -1,0 +1,629 @@
+*{
+  box-sizing: border-box;
+  /* margin: 0 auto; */
+}
+
+body{
+    margin: 0;
+   
+    background-image: url("images/bg-curvy-mobile.svg");
+    background-color:  hsl(218, 28%, 13%);
+    background-repeat: no-repeat;
+    background-position-y: 10.8%;
+    background-attachment: fixed;
+}
+
+.logodiv{
+float: left;
+}
+
+.logoicon{
+    width: 70px;
+}
+
+.nav{
+   margin: 0 auto;
+   padding: 1rem;
+   max-width: 100%;
+   height:50px;
+}
+
+.topnav{
+    float: right;   
+}
+
+a{
+    text-decoration: none;
+    margin-left: 0.4em;
+    color:hsl(0, 0%, 100%);
+    font-weight: 400, 700;
+}
+  
+.intro-image{
+
+    width: 100%;
+    margin: auto; 
+    margin-top: 50px;
+    padding-right: .9rem;
+    padding-left: .9rem;    
+}
+
+.intro-copy-div{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    Font-size: 14px;
+    color:hsl(0, 0%, 100%); 
+}
+
+h3{
+    text-align: center;
+}
+
+.secureP{
+   text-align: center;
+   margin: 0 auto;
+   margin-bottom: 20px;  
+}
+
+.button1
+{
+    background-color: hsl(176, 68%, 64%);
+    display: inline-block;
+      margin: 0 auto;
+        border-radius: 35px;
+       border: none;
+        color: #eeeeee;
+        text-align: center;
+        font-size: 1rem;
+        padding: 20px;
+        height: autopx;
+        width: 50%;
+}
+
+.button2{
+    
+    background-color: hsl(176, 68%, 64%);
+    display: inline-block;
+      margin: 0 auto;
+        border-radius: 35px;
+       border: none;
+        color: #eeeeee;
+        text-align: center;
+        font-size: 1rem;
+        padding: 10px;
+        height: autopx;
+        width: 70%;
+}
+
+
+input{
+    
+    background-color: hsl(176, 68%, 64%);
+    /* display: inline-block; */
+      margin: 0 auto;
+        border-radius: 35px;
+       border: none;
+        color: #eeeeee;
+        text-align: center;
+        
+        padding:10px;
+        height: autopx;
+        margin-bottom: 1em;
+        width: 70%;
+        color: #eeeeee;
+}
+
+::placeholder {
+    color: #eeeeee;
+  }
+
+
+.accessanywherecopy, .securityCopy, .realtimecollaborationCopy, .storeanyfiletypecopy, .stayproductivecopy
+{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    Font-size: 14px;
+    color:  hsl(0, 0%, 100%); 
+}
+
+.accessanywhereimage, .securityimage, .realtimecollaborationImage, .storeanyfiletypeImage
+{
+    width: 20%;
+    margin:  auto; 
+    margin-top: 50px;
+}
+
+.stayproductivecopy{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    justify-content: center;
+}
+.stayproductiveImage{
+    display: flex;
+    justify-content: center;
+
+    width: 70%;
+    margin: 0 ; 
+    margin-top: 50px;
+}
+
+.stayproductiveimagebox{
+    display: flex;
+    justify-content: center;
+    margin:  0 ;
+}
+
+.stayproductiveimagecopy{
+   
+    margin-left: 100px;
+    font-size: 14px;
+       
+}
+
+
+.accessanywhereP, .securityCopyP, .realtimecollaborationP, .storeanyfiletypeP
+{
+   text-align: center;
+   margin: 0 auto;
+   justify-content: center; 
+}
+
+.GetEarlyAccessP, .GetEarlyAccessP1{
+    text-align: center;
+}
+.demolink{
+ 
+    margin:0 ;
+    
+    text-decoration: underline;
+    color: hsl(176, 68%, 64%);
+   
+}
+
+
+.container{
+   
+    display: flex;
+    flex-direction: column;   
+}
+.row{
+ 
+    padding-bottom: 5em;
+}
+
+.col-1 {
+    background-color: hsl(219, 30%, 18%);
+    color:   hsl(0, 0%, 100%); 
+    margin:  auto;
+    margin-top: 40px;
+    border-radius: 3%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.col-2, .col-3{
+    background-color: hsl(219, 30%, 18%);
+    color:   hsl(0, 0%, 100%); 
+    margin:  auto;
+    /* margin-left: 1em ;
+    margin-right: 1em; */
+    margin-top: 40px;
+    border-radius: 3%;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+
+.testimonial-p{
+    padding: 1em;
+}
+
+.profilepicture{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.profilepictureBox{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1em;
+    padding-bottom: 1em;
+}
+.profilepicturecopy{
+    margin-left: 1em;
+  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+.profilepp1, .profilepp2{
+
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+
+
+
+footer{
+    display: flex;
+    background-color: hsl(216, 53%, 9%); 
+    flex-direction:column;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+    width: 100%; 
+    
+}
+
+
+
+.GetEarlyAccessDiv{
+    background-color:  hsl(217, 28%, 15%);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  padding-left: 0;
+  padding-right: 0;
+   border-radius: 3%;
+   color:   hsl(0, 0%, 100%); 
+   /* align-items: center; */
+   z-index: 1;
+   margin-bottom: 50px;
+}
+
+
+.contactDiv{
+  
+    display: flex;
+    flex-direction: column;
+    color:   hsl(0, 0%, 100%); 
+    width: 90%;
+    padding: 1.5rem;
+ 
+}
+
+.contactDivlogo{
+
+    width: 80px;
+   
+}
+
+.locationCopy{
+    display: flex;
+    
+}
+.locationImage{
+  margin-top: 20px;
+    width: 20px;
+    height: 20px;
+margin-right: 20px;
+}
+
+
+
+
+.footernav{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.5em;
+    margin-left: 1.7em;
+    margin-bottom: 30px;
+}
+
+.locationCopy{
+
+    display: flex;
+
+}
+
+.footernav3{
+    align-items: center;
+    margin: 0 auto;
+}
+
+.footer-p{
+    text-align: center;
+    margin-top: 50px;
+   margin-left: 1em;
+   margin-right: 1em;
+   color:   hsl(0, 0%, 100%); 
+   padding-bottom: .7em; 
+}
+
+
+.contact-container{
+    display: flex;
+      flex-direction:column; 
+}
+
+
+
+
+.outer-wrap{
+    position: relative;
+z-index: 0;
+margin: 0 auto;
+/* background-color: hsl(216, 53%, 9%);  */
+
+}
+
+.wrap1{
+    position: absolute;
+    /* background-color: hsl(216, 53%, 9%);  */
+z-index: 2;
+width: 80%;
+top: 150px;
+margin: 0;
+margin-left: 10%;
+}
+
+
+.wrap2{
+position: absolute;
+z-index: 1;
+padding-top: 200px;
+width:100%;
+top: 300px;
+left: 0px;
+}
+
+#social-links{
+display:flex;
+flex-direction:row;
+margin: 0 auto;
+}
+
+.socialimageresize{
+width: 30px;
+background-color: hsl(216, 53%, 9%);
+border-radius: 50px;
+margin-right: 0.2rem;
+}
+
+
+
+@media screen and (min-width: 1000px) {
+    body {
+       background-color:  hsl(218, 28%, 13%);
+    }
+
+
+/* nav and intro styling starts here  */
+.logoicon{
+    width: 60%;
+}
+
+.nav{
+   margin: 0 auto;
+   padding: 1.5rem;
+   max-width: 100%;
+   height:50px;
+   margin-top: 40px;
+}
+
+.topnav{
+    float: right;  
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 0.4em;
+    color:hsl(0, 0%, 100%);
+    font-weight: 400, 700;
+}
+#topnavstyle{
+    margin-right:1em;
+}
+  
+.intro-image{
+
+    width: 100%;
+    margin: 0 auto; 
+    margin-top: 50px;
+    /* padding-right: .9rem;
+    padding-left: .9rem;     */
+}
+ /* nav and intro styling stops here  */
+
+
+
+
+
+
+
+
+
+
+
+/* intro div styling starts here */
+    .intro-copy-div{
+        display: flex;
+        margin-top: 30px;
+        flex-direction: column;
+        Font-size: 2em;
+        color:hsl(0, 0%, 100%); 
+    }
+    
+    h3{
+        text-align: center;
+    }
+    
+    .secureP{
+       text-align: center;
+       margin: 0 auto;
+       margin-bottom: 20px;  
+    }
+
+    .button1
+    {
+        background-color: hsl(176, 68%, 64%);
+        display: inline-block;
+          margin: 0 auto;
+            border-radius: 35px;
+           border: none;
+            color: #eeeeee;
+            text-align: center;
+            font-size: 1rem;
+            padding: 15px;
+            height: auto;
+            width: 15%;
+    }
+/* intro div styling stops here */
+
+/* services copy styling starts here  */
+.container0{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+/* services copy styling stops here  */
+
+
+/* stay productive styling starts here  */
+
+.stayproductivecopy{
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  margin-top: 150px;
+  justify-content: center;
+}
+
+.stayproductiveimagebox{
+    width: 30%;
+    margin-top: 0px;
+}
+.stayproductiveimagecopy{
+    padding-top: 50px;
+}
+/* stay productive styling stops here  */
+
+/* Testimonial styling begins here  */
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5%;
+    margin-bottom: 0;
+}
+
+/* Testimonial styling stops here  */
+
+
+/* get early access styling today starts here */
+
+.wrap1{
+    font-size:20px;
+}
+
+.Earlyaccesscopy{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0 auto;
+   
+}
+
+.button2{
+    
+    background-color: hsl(176, 68%, 64%);
+    display: inline-block;
+      /* margin: 0 auto; */
+        border-radius: 35px;
+       border: none;
+        color: #eeeeee;
+        text-align: center;
+        font-size: .6em;
+         padding: .3em;
+         margin-bottom: 1em;
+        width: 100%; 
+}
+
+
+input{
+    
+    background-color: #eeeeee;;
+    display: inline-block;
+    
+    border-radius: 35px;
+    border: none;
+    color: #eeeeee;
+    text-align: center;
+        
+    padding:10px;
+        
+    margin-bottom: 1em;
+    width: 100%; 
+    color: #eeeeee;
+}
+
+::placeholder {
+    color: gray;
+  }
+
+
+/* get early access styling today stops here */
+
+/* footer styling starts here  */
+.contact-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.footernav{
+    margin-top: 65px;
+
+}
+
+.contactspacing{
+    margin-bottom: .5em;
+}
+
+/* footer styling stops here  */
+
+
+/* social links styling begins here */
+#social-links{
+    /* display:flex;
+    flex-direction:row;
+    /* margin: 0 auto; */
+    /* margin-left: 0.5rem; */
+    /* margin-top: 2px; */
+    /* padding-top: 0px; */
+    /* background-color: red;  */
+
+display: grid;
+
+
+margin: 0;
+  padding: 0;
+grid-template-columns: auto auto auto;
+
+
+
+
+
+    }
+    
+    .socialimageresize{
+    /* width: 20px;
+    background-color: hsl(216, 53%, 9%);
+    border-radius: 50px;
+    margin-right: 0.5rem;
+    margin-top: 2px; */
+    margin-top: 0;
+
+
+
+
+
+    }
+    
+/* social links ends here */
+
+}
